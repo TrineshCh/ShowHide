@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.background {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: #ffffff;
+  font-size: 45px;
+}
+.btn-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background-color: #ffffff;
+  color: #dd1264;
+  padding: 7px;
+  margin-bottom: 25px;
+  border: 0px solid #ffffff;
+}
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 300px;
+  background-color: #fddddb;
+}
